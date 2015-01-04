@@ -17,10 +17,10 @@
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     var url = window.location.search;
-    var index = url.indexOf('?code');
+    var index = url.indexOf('?code=') + 6;
     var access_token = url.substring(index);
-    console.log(url);
-    console.log(access_token);
+
+    //fashion club studios id: 1593059135
   });
   </script>
 </head>
