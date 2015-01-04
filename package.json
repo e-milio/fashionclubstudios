@@ -1,0 +1,18 @@
+{
+  "name": "FashionClubStudios",
+  "version": "0.0.0",
+  "description": "A website for Fashion Club Studios",
+  "main": "server.js",
+  "author": "Tyler Paige and Emilio Martinez",
+  "dependencies": {
+    "async": "^0.9.0",
+    "express": "^4.4.5",
+    "oauth": "^0.9.12"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git"
+  }
+}
