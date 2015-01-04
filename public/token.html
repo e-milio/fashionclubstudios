@@ -16,8 +16,11 @@
   <script src="assets/js/jquery.fittext.js" type="text/javascript"></script>
   <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var url = window.location;
+    var url = window.location.search;
+    var index = url.indexOf('?code');
+    var access_token = url.substring(index);
     console.log(url);
+    console.log(access_token);
   });
   </script>
 </head>
